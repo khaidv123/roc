@@ -1,14 +1,7 @@
 # Re-creation of Creations (ROC)
-
-[Re-creation of Creations: A New Paradigm for Lyric-to-Melody Generation](https://arxiv.org/pdf/2208.05697.pdf), by Ang Lv, Xu Tan, Tao Qin, Tie-Yan Liu, Rui Yan, arXiv 2022, is a new paradigm for lyric-to-melody generation to address the following issues through a generation-retrieval pipeline: (1) lack of aligned lyric-melody training data to sufficiently learn lyric-melody feature alignment; (2) lack of controllability in generation to explicitly guarantee the lyric-melody feature alignment. ROC has no requirement on paired lyric-melody data, and considers music theories and composition guidelines explicitly, which provides great controllability.
-
-
-<p align="center"><img src="../img/ROC.PNG" width="900"><br/> Pipeline of ROC </p>
-
 ## 1. Inference
 
-(1) Put melody language model and the database into the folder 'music-ckps' and 'database', respectively. The model and the database can be downloaded [here](https://drive.google.com/drive/folders/1TpWOMlRAaUL-R6CRLWfZK1ZeE1VCaubp?usp=sharing)
-
+(1) Put melody language model and the database into the folder 'music-ckps' and 'database', respectively. 
 (2) Prepare lyrics data. Please write your lyrics in 'lyrics.txt', , one line for each song. Please set the lyrics language and a chord progression for each song in 'chord.txt'. Do not leave a space in the end of lines. We have provided bilingual examples in the two files.
 
 (3) Run the ROC:
