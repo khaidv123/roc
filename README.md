@@ -70,10 +70,3 @@ python piece_to_database min_verse.notes
 ```
 After this step, a database named 'ROC.db' will be constructed in '../database' folder.
 
-## 4. Evaluation
-
-To evaluate DIST and ENT, we use the script from this repo: https://github.com/lemon234071/AdaLabel/blob/master/scripts/eval.py
-
-
-
-You can find demo samples by ROC from [https://ai-muzic.github.io/roc/](https://ai-muzic.github.io/roc/).
